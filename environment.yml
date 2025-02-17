@@ -1,0 +1,14 @@
+name: nba-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - jupyter
+  - notebook
+  - scikit-learn
+  - pip
+  - pip:
+    - nba_api
